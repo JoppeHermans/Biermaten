@@ -1,0 +1,100 @@
+
+body {
+    background-color: #08205c;
+    margin-top: 20%;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #000;
+    color: rebeccapurple;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #060236;
+}
+
+.accordion {
+    --bs-accordion-bg: #000 !important;
+    --bs-accordion-border-color: #000 !important;
+    border-radius: 10px;
+}
+
+.accordion-button {
+    background-color: black;
+    color: rebeccapurple;
+    padding: 20px 20px;
+    text-align: center;
+    border-color: black;
+}
+
+.accordion-button::after {
+    margin-left: 20px;
+    color: rebeccapurple;
+    border-color: black;
+}
+
+.accordion-button:hover {
+    background-color: #060236;
+}
+
+.accordion-body {
+    background-color: #060236;
+    color: mediumpurple;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #000;
+    color: rebeccapurple;
+}
+
+.accordion-header {
+    align-items: center;
+}
+
+label {
+    text-align: center;
+    color: white;
+}
+
+.inputField {
+    background-color: darkcyan;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#popupContainer, .textBox {
+    text-align: center;
+    color: mediumpurple;
+    display: inline-block;
+    padding: 50px 20px;
+    background-color: #060236;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 10px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#button {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+form input[type="submit"], button {
+    border: none;
+}
+
+#button2:hover {
+    background-color: #08205c !important;
+}
+

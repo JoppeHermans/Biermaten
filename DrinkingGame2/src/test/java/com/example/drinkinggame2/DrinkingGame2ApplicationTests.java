@@ -1,0 +1,13 @@
+package com.example.drinkinggame2;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class DrinkingGame2ApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
