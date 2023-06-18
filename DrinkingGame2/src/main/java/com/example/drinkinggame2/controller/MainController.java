@@ -126,6 +126,8 @@ public class MainController {
         Tasks tasks68 = new Tasks("Doe een gek dansje. Drink 4 slokken als niemand meedoet.");
         Tasks tasks69 = new Tasks("Zing een liedje achterstevoren. Als je een fout maakt, drink 5 slokken.");
         Tasks tasks70 = new Tasks("Vertel een verhaal met een plot twist. Drink 6 slokken als niemand verrast is.");
+        Tasks tasks71 = new Tasks("Kabouterke! Alle mannen moeten kabouterke op, kabouterke af doen wanneer ze drinken (Tot de vrouwen deze opdracht krijgen)");
+        Tasks tasks72 = new Tasks("Kabouterke! Alle vrouwen moeten kabouterke op, kabouterke af doen wanneer ze drinken (Tot de mannen deze opdracht krijgen)");
         taskList.add(tasks1);
         taskList.add(tasks2);
         taskList.add(tasks3);
@@ -196,6 +198,8 @@ public class MainController {
         taskList.add(tasks68);
         taskList.add(tasks69);
         taskList.add(tasks70);
+        taskList.add(tasks71);
+        taskList.add(tasks72);
 
         return taskList;
     }
