@@ -143,6 +143,19 @@ public class MainController {
         Tasks tasks85 = new Tasks("Drink 3 slokken");
         Tasks tasks86 = new Tasks("Drink 4 slokken");
         Tasks tasks87 = new Tasks("Drink 5 slokken");
+        Tasks tasks88 = new Tasks("Dubbel Drinker! Je drinkt dubbel tot iemand anders deze opdracht krijgt");
+        Tasks tasks89 = new Tasks("Dubbel Drinker! Je drinkt dubbel tot iemand anders deze opdracht krijgt");
+        Tasks tasks90 = new Tasks("Dubbel Drinker! Je drinkt dubbel tot iemand anders deze opdracht krijgt");
+        Tasks tasks91 = new Tasks("Dubbel Drinker! Je drinkt dubbel tot iemand anders deze opdracht krijgt");
+        Tasks tasks92 = new Tasks("Dubbel Drinker! Je drinkt dubbel tot iemand anders deze opdracht krijgt");
+        Tasks tasks93 = new Tasks("Doe een koprol! Als je faalt drink je 4 slokken");
+        Tasks tasks94 = new Tasks("Iedereen drinkt 1 slok");
+        Tasks tasks95 = new Tasks("Iedereen drinkt 2 slokken");
+        Tasks tasks96 = new Tasks("Iedereen drinkt 3 slokken");
+        Tasks tasks97 = new Tasks("Iedereen drinkt 4 slokken");
+        Tasks tasks98 = new Tasks("Iedereen drinkt 5 slokken");
+        Tasks tasks99 = new Tasks("Zwemmer atten! Ga op een stoel of barkruk liggen en doe alsof je zwemt terwijl je een atje doet");
+        Tasks tasks100 = new Tasks("Kop of munt! Doe kop of munt met de persoon rechts van je, vooraf zet je beiden slokken in. De verliezer drinkt het opgetelde aantal slokken op");
         taskList.add(tasks1);
         taskList.add(tasks2);
         taskList.add(tasks3);
@@ -230,6 +243,19 @@ public class MainController {
         taskList.add(tasks85);
         taskList.add(tasks86);
         taskList.add(tasks87);
+        taskList.add(tasks88);
+        taskList.add(tasks89);
+        taskList.add(tasks90);
+        taskList.add(tasks91);
+        taskList.add(tasks92);
+        taskList.add(tasks93);
+        taskList.add(tasks94);
+        taskList.add(tasks95);
+        taskList.add(tasks96);
+        taskList.add(tasks97);
+        taskList.add(tasks98);
+        taskList.add(tasks99);
+        taskList.add(tasks100);
 
         return taskList;
     }
