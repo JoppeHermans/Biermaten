@@ -96,7 +96,7 @@ public class MainController {
         Tasks tasks38 = new Tasks("Lelijkste persoon drinkt 3 slokken. wijzen 3..2..1");
         Tasks tasks39 = new Tasks("Vertel een grap, drink een slok voor elke persoon die niet lacht");
         Tasks tasks40 = new Tasks("Complimenten ronde! iedereen vertelt een compliment aan de persoon links van hem/haar");
-        Tasks tasks41 = new Tasks("Drink een slok voor elke ex");
+        Tasks tasks41 = new Tasks("Drink een slok voor elke ex van alle spelers");
         Tasks tasks42 = new Tasks("Doe een dansje! De andere spelers mogen dit beoordelen, drink een slok voor elke speler die minder dan 5 op 10 geeft");
         Tasks tasks43 = new Tasks("Iedereen neemt een kaart, degene met de laagste kaart drinkt 3 slokken");
         Tasks tasks44 = new Tasks("Zing een Liedje! De persoon links van je bepaald hoeveel slokken je moet drinken op basis van je zangkunsten");
@@ -128,6 +128,21 @@ public class MainController {
         Tasks tasks70 = new Tasks("Vertel een verhaal met een plot twist. Drink 6 slokken als niemand verrast is.");
         Tasks tasks71 = new Tasks("Kabouterke! Alle mannen moeten kabouterke op, kabouterke af doen wanneer ze drinken (Tot de vrouwen deze opdracht krijgen)");
         Tasks tasks72 = new Tasks("Kabouterke! Alle vrouwen moeten kabouterke op, kabouterke af doen wanneer ze drinken (Tot de mannen deze opdracht krijgen)");
+        Tasks tasks73 = new Tasks("Alle singles drinken 4 slokken");
+        Tasks tasks74 = new Tasks("Iedereen met een lief drinkt 3 slokken");
+        Tasks tasks75 = new Tasks("Alle koppeltjes zijn nu maten");
+        Tasks tasks76 = new Tasks("2 truths and a lie. Drink voor elke persoon die het juist raadt een slok, iedereen die het fout raadt drinkt zelf 3 slokken");
+        Tasks tasks77 = new Tasks("Deel 1 slok uit");
+        Tasks tasks78 = new Tasks("Deel 2 slokken uit");
+        Tasks tasks79 = new Tasks("Deel 3 slokken uit");
+        Tasks tasks80 = new Tasks("Deel 4 slokken uit");
+        Tasks tasks81 = new Tasks("Deel 5 slokken uit");
+        Tasks tasks82 = new Tasks("Deel 6 slokken uit");
+        Tasks tasks83 = new Tasks("Drink 1 slok");
+        Tasks tasks84 = new Tasks("Drink 2 slokken");
+        Tasks tasks85 = new Tasks("Drink 3 slokken");
+        Tasks tasks86 = new Tasks("Drink 4 slokken");
+        Tasks tasks87 = new Tasks("Drink 5 slokken");
         taskList.add(tasks1);
         taskList.add(tasks2);
         taskList.add(tasks3);
@@ -200,6 +215,21 @@ public class MainController {
         taskList.add(tasks70);
         taskList.add(tasks71);
         taskList.add(tasks72);
+        taskList.add(tasks73);
+        taskList.add(tasks74);
+        taskList.add(tasks75);
+        taskList.add(tasks76);
+        taskList.add(tasks77);
+        taskList.add(tasks78);
+        taskList.add(tasks79);
+        taskList.add(tasks80);
+        taskList.add(tasks81);
+        taskList.add(tasks82);
+        taskList.add(tasks83);
+        taskList.add(tasks84);
+        taskList.add(tasks85);
+        taskList.add(tasks86);
+        taskList.add(tasks87);
 
         return taskList;
     }
