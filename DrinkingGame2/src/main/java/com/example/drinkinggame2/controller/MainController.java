@@ -54,6 +54,7 @@ public class MainController {
         return "resultPage";
     }
 
+
     private ArrayList<Tasks> filltasks() {
         ArrayList<Tasks> taskList = new ArrayList<>();
         Tasks tasks1 = new Tasks("Drink 1 slok");

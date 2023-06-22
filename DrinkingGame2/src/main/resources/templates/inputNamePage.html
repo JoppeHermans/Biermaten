@@ -15,7 +15,7 @@
 <form th:action="@{/submitPlayerNames}" method="post">
     <label for="playerNames" id="label" class="mb-1 col-12">Enter player names:</label><br/>
     <div th:each="i : ${#numbers.sequence(1, numberOfPlayers)}">
-        <input type="text" id="playerNames" name="playerNames" class="inputField col-12 mb-3 rounded-4" th:attr="placeholder='Player ' + ${i}" required/>
+        <input type="text" id="playerNames" name="playerNames" class="inputField col-12 mb-3 rounded-4" th:attr="placeholder='Speler ' + ${i}" required/>
         <br/>
     </div>
     <button type="submit" class="button col-12 mb-3 rounded-4">Submit</button>

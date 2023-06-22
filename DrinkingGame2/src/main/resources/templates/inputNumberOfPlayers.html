@@ -14,10 +14,10 @@
 <body class="container">
 <form action="/submitNumberOfPlayers">
     <p>
-        <label for="numberOfPlayers" class="col-12">Aantal spelers:</label>
+        <label for="numberOfPlayers" class="col-12">Aantal spelers (2-50):</label>
     </p>
     <p>
-        <input type="number" name="numberOfPlayers" id="numberOfPlayers" class="inputField col-12 mb-2 rounded-4" min="2" value="2">
+        <input type="number" name="numberOfPlayers" id="numberOfPlayers" class="inputField col-12 mb-2 rounded-4" min="2" max="50" required>
     </p>
     <p>
         <input type="submit" id="submitNumberOfPlayers" name="submitNumberOfPlayers" class="button col-12 rounded-4" value="Volgende">
